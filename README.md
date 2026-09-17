@@ -1,4 +1,4 @@
-# 🛡️ RiskPulse AI
+#  RiskPulse AI
 
 ### AI-Powered Corporate Credit Risk Intelligence & Early Warning System
 
@@ -8,7 +8,7 @@ The system takes a **company name** as input, automatically collects relevant ne
 
 ---
 
-## 🎯 Project Objective
+##  Project Objective
 
 RiskPulse AI aims to provide a lightweight decision-support system for corporate credit assessment by transforming unstructured news into structured risk intelligence.
 
@@ -25,9 +25,9 @@ Instead of manually reviewing large numbers of news articles, the system:
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 🔎 Multi-Source News Aggregation
+###  Multi-Source News Aggregation
 
 The system searches Google News RSS using multiple queries covering:
 
@@ -38,7 +38,7 @@ The system searches Google News RSS using multiple queries covering:
 
 The news retrieval process uses concurrent requests to improve performance.
 
-### 📰 Article Text Extraction
+###  Article Text Extraction
 
 RiskPulse AI attempts to retrieve the full article text using multiple extraction strategies:
 
@@ -48,7 +48,7 @@ RiskPulse AI attempts to retrieve the full article text using multiple extractio
 
 A content-quality score is also assigned depending on the quality and amount of extracted text.
 
-### 🏢 Corporate Entity Resolution
+###  Corporate Entity Resolution
 
 The system supports company aliases and Arabic/English variations.
 
@@ -68,7 +68,7 @@ Depending on the installed environment, it can use **CAMeL Tools** for:
 
 A regex-based fallback is also available.
 
-### 🤖 LLM-Based Credit Risk Analysis
+###  LLM-Based Credit Risk Analysis
 
 Each article is analyzed by a banking-focused LLM engine.
 
@@ -92,7 +92,7 @@ The analysis distinguishes between:
 
 and non-risk information such as routine expansion, partnerships, investments, or positive company news.
 
-### 📊 Risk Domains
+###  Risk Domains
 
 Detected risk events are categorized into five domains:
 
@@ -106,7 +106,7 @@ Detected risk events are categorized into five domains:
 
 ---
 
-## 🧠 Risk Scoring Methodology
+##  Risk Scoring Methodology
 
 RiskPulse AI does not rely only on the LLM's classification.
 
@@ -141,7 +141,7 @@ These thresholds are implemented directly in the application.
 
 ---
 
-## 🏗️ System Workflow
+##  System Workflow
 
 ```text
 User
@@ -187,7 +187,7 @@ Streamlit Risk Dashboard
 
 ---
 
-## 🖥️ Dashboard
+##  Dashboard
 
 The Streamlit interface provides:
 
@@ -208,7 +208,7 @@ The dashboard also separates analyzed articles into **detected-risk** and **no-r
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 ### Frontend / Dashboard
 
@@ -246,7 +246,7 @@ The dashboard also separates analyzed articles into **detected-risk** and **no-r
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 RiskPulse-AI/
@@ -263,7 +263,7 @@ RiskPulse-AI/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### 1. Clone the repository
 
@@ -314,7 +314,7 @@ camel-tools
 
 ---
 
-## 🔑 API Configuration
+##  API Configuration
 
 RiskPulse AI requires a **Groq API key**.
 
@@ -330,7 +330,7 @@ For production deployment, use environment variables or a secure secrets manager
 
 ---
 
-## ▶️ Running the Application
+##  Running the Application
 
 Start the Streamlit application with:
 
@@ -342,7 +342,7 @@ Then open the local Streamlit URL displayed in the terminal.
 
 ---
 
-## 🧪 Example Usage
+##  Example Usage
 
 1. Enter a company name, for example:
 
@@ -357,7 +357,7 @@ Then open the local Streamlit URL displayed in the terminal.
 4. Click:
 
 ```text
-🚀 تحليل شامل
+ تحليل شامل
 ```
 
 5. RiskPulse AI will:
@@ -380,7 +380,7 @@ Display Results
 
 ---
 
-## 🔐 Risk Evidence & Explainability
+##  Risk Evidence & Explainability
 
 For every detected risk, the dashboard provides supporting information including:
 
@@ -397,7 +397,7 @@ This allows the analyst to inspect **why an article contributed to the overall r
 
 ---
 
-## ⚡ Performance Considerations
+##  Performance Considerations
 
 The system uses parallel processing in several stages.
 
@@ -412,7 +412,7 @@ The LLM API integration also includes:
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 RiskPulse AI is a **decision-support prototype**, not an automated credit approval system.
 
@@ -428,7 +428,7 @@ Current limitations include:
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 Potential future extensions include:
 
@@ -445,7 +445,7 @@ Potential future extensions include:
 
 ---
 
-## 📌 Project Status
+##  Project Status
 
 **Current Status:** MVP / Prototype
 
@@ -455,13 +455,13 @@ RiskPulse AI currently provides an end-to-end workflow from:
 
 ---
 
-## 👩‍💻 Authors
+##  Authors
 
 Developed as an AI/Data Science project focused on **corporate credit risk intelligence and early warning systems**.
 
 ---
 
-## 📄 License
+##  License
 
 This project is intended for educational and research purposes.
 
