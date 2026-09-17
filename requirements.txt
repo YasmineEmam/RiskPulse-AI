@@ -1,0 +1,9 @@
+streamlit
+requests
+feedparser
+beautifulsoup4
+trafilatura
+newspaper3k
+camel-tools
+rapidfuzz
+numpy
